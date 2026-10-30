@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>amadeOS Handbooks</title>
+<meta name="description" content="The handbooks of amadeOS: for users, for application developers and for game developers.">
+<style>
+  :root {
+    --slate: #3b546e; --slate-dark: #27384a; --warm: #c8beb4; --warm-light: #f0ece8;
+    --page: #f7f4f1; --text: #2b2420; --muted: #6e625c;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--page); color: var(--text);
+         font: 17px/1.55 "DejaVu Sans", "Helvetica Neue", Arial, sans-serif; }
+  header { background: var(--slate); color: #fff; padding: 28px 16px;
+           border-bottom: 3px solid var(--slate-dark); }
+  header h1 { margin: 0; font-size: 1.7rem; }
+  header p { margin: 6px 0 0; color: #dde6ef; }
+  main, header > div, footer { max-width: 860px; margin: 0 auto; }
+  main { padding: 24px 16px; }
+  a.book { display: block; margin: 0 0 16px; padding: 18px 20px; text-decoration: none; color: var(--text);
+           background: var(--warm-light);
+           border: 2px solid; border-color: #fff var(--warm) var(--warm) #fff; }
+  a.book:hover, a.book:focus { border-color: var(--warm) #fff #fff var(--warm); }
+  a.book strong { display: block; font-size: 1.2rem; color: var(--slate-dark); }
+  a.book span { color: var(--muted); }
+  footer { padding: 16px; font-size: .9rem; color: var(--muted); }
+  footer a { color: var(--slate); }
+</style>
+</head>
+<body>
+<header><div>
+  <h1>amadeOS Handbooks</h1>
+  <p>A European desktop operating system on Debian, with the look of the Common Desktop Environment.</p>
+</div></header>
+<main>
+  <a class="book" href="/amadeos/">
+    <strong>amadeOS User's Handbook</strong>
+    <span>Why amadeOS exists, how to install it, how to use and administer it.</span>
+  </a>
+  <a class="book" href="/amade-commons/">
+    <strong>amadeOS Application Developer's Handbook</strong>
+    <span>Writing amade applications with amade-commons, packaging them, and writing modules of the desktop.</span>
+  </a>
+  <a class="book" href="/amade-game-engine/">
+    <strong>amadeOS Game Developer's Handbook</strong>
+    <span>Writing games with the amade game engine, from Paddle to Town, and the engine manual.</span>
+  </a>
+</main>
+<footer>
+  <a href="https://www.amadeos.eu/">www.amadeos.eu</a> ·
+  <a href="https://github.com/amadeos-eu">github.com/amadeos-eu</a> ·
+  <a href="https://www.amadeos.eu/imprint.html">Imprint</a>
+</footer>
+</body>
+</html>
